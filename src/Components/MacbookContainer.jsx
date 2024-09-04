@@ -5,6 +5,7 @@ import * as THREE from 'three'
 const MacbookContainer = () => {
    const textsure1=useTexture("./red.jpg")
    const model= useGLTF('./mac.glb')
+   const model1= useGLTF('./card.glb')
    //takes in the invidual mesh so that we can animate
    const meshes={}
     model.scene.traverse((child)=>{
